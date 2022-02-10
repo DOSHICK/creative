@@ -1,0 +1,136 @@
+// fonts.scss
+
+
+// navigo
+@font-face {
+  font-family: 'Navigo';
+  src: url('../fonts/navigo/Navigo-Thin.eot');
+  src: local('../fonts/navigo/Navigo Thin'), local('Navigo-Thin'),
+      url('../fonts/navigo/Navigo-Thin.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/navigo/Navigo-Thin.woff2') format('woff2'),
+      url('../fonts/navigo/Navigo-Thin.woff') format('woff'),
+      url('../fonts/navigo/Navigo-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Navigo';
+    src: url('../fonts/navigo/Navigo-ExtraLight.eot');
+    src: local('../fonts/navigo/Navigo ExtraLight'), local('../fonts/navigo/Navigo-ExtraLight'),
+        url('../fonts/navigo/Navigo-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/navigo/Navigo-ExtraLight.woff2') format('woff2'),
+        url('../fonts/navigo/Navigo-ExtraLight.woff') format('woff'),
+        url('../fonts/navigo/Navigo-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Navigo';
+  src: url('../fonts/navigo/Navigo-Light.eot');
+  src: local('../fonts/navigo/Navigo Light'), local('../fonts/navigo/Navigo-Light'),
+      url('../fonts/navigo/Navigo-Light.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/navigo/Navigo-Light.woff2') format('woff2'),
+      url('../fonts/navigo/Navigo-Light.woff') format('woff'),
+      url('../fonts/navigo/Navigo-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Navigo';
+  src: url('../fonts/navigo/Navigo-Regular.eot');
+  src: local('../fonts/navigo/Navigo Regular'), local('../fonts/navigo/Navigo-Regular'),
+      url('../fonts/navigo/Navigo-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/navigo/Navigo-Regular.woff2') format('woff2'),
+      url('../fonts/navigo/Navigo-Regular.woff') format('woff'),
+      url('../fonts/navigo/Navigo-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Navigo';
+  src: url('../fonts/navigo/Navigo-Medium.eot');
+  src: local('../fonts/navigo/Navigo Medium'), local('../fonts/navigo/Navigo-Medium'),
+      url('../fonts/navigo/Navigo-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/navigo/Navigo-Medium.woff2') format('woff2'),
+      url('../fonts/navigo/Navigo-Medium.woff') format('woff'),
+      url('../fonts/navigo/Navigo-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Navigo';
+  src: url('../fonts/navigo/Navigo-Bold.eot');
+  src: local('../fonts/navigo/Navigo Bold'), local('../fonts/navigo/Navigo-Bold'),
+      url('../fonts/navigo/Navigo-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/navigo/Navigo-Bold.woff2') format('woff2'),
+      url('../fonts/navigo/Navigo-Bold.woff') format('woff'),
+      url('../fonts/navigo/Navigo-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Navigo';
+    src: url('../fonts/navigo/Navigo-Black.eot');
+    src: local('../fonts/navigo/Navigo Black'), local('../fonts/navigo/Navigo-Black'),
+        url('../fonts/navigo/Navigo-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/navigo/Navigo-Black.woff2') format('woff2'),
+        url('../fonts/navigo/Navigo-Black.woff') format('woff'),
+        url('../fonts/navigo/Navigo-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+// ALS Hauss
+@font-face {
+  font-family: 'ALS Hauss';
+  src: url('../fonts/ALS Hauss/ALS Hauss Light/ALS Hauss Light.eot');
+  src: local('../fonts/ALS Hauss/ALS Hauss Light/ALS Hauss Light'), local('../ALS Hauss/ALS Hauss Light/ALS Hauss Light'),
+      url('../fonts/ALS Hauss/ALS Hauss Light/ALS Hauss Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ALS Hauss';
+  src: url('../fonts/ALS Hauss/ALS Hauss Medium/ALS Hauss Medium.eot');
+  src: local('../fonts/ALS Hauss/ALS Hauss Medium/ALS Hauss Medium'), local('../ALS Hauss/ALS Hauss Medium/ALS Hauss Medium'),
+      url('../fonts/ALS Hauss/ALS Hauss Medium/ALS Hauss Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ALS Hauss';
+  src: url('../fonts/ALS Hauss/ALS Hauss Bold/ALS Hauss Bold.eot');
+  src: local('../fonts/ALS Hauss/ALS Hauss Bold/ALS Hauss Bold'), local('../ALS Hauss/ALS Hauss Bold/ALS Hauss Bold'),
+      url('../fonts/ALS Hauss/ALS Hauss Bold/ALS Hauss Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ALS Hauss';
+  src: url('../fonts/ALS Hauss/ALS Hauss Black/ALS Hauss Black.eot');
+  src: local('../fonts/ALS Hauss/ALS Hauss Black/ALS Hauss Black'), local('../ALS Hauss/ALS Hauss Black/ALS Hauss Black'),
+      url('../fonts/ALS Hauss/ALS Hauss Black/ALS HaussBlack.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+//fonts
+@mixin fontMain {
+  font-family: 'Navigo';
+}
+@mixin fontSecond {
+  font-family: 'ALS Hauss';
+}
+
+/*   colors   */ 
+
+//main colors
+$Black: #000000;
+$White: #ffffff;
+//colors of text
+$BlackLight: #2B2D33;
+$Gray: #808185;
+$GrayLight:#A2A4A6;
+//colors for backgrounds
+$Blue: #3B7CFF;
+$BlueDark: #29476B;
+$Yellow:  #FEE600;
+$YellowHover:  #FED500;
+//colors for border
+$GrayLightBorder: #E1E1E3;
+

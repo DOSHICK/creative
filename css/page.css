@@ -1,0 +1,429 @@
+/* reset styles.scss */
+html,
+body,
+header,
+main,
+footer,
+section,
+div,
+nav,
+ul,
+ol,
+li,
+a,
+p,
+span,
+b,
+i,
+em,
+input,
+label,
+button,
+textarea,
+blockquote,
+br,
+canvas,
+code,
+dt,
+dd,
+del,
+ins,
+form,
+iframe,
+img,
+pre,
+sub,
+sup,
+table,
+td,
+th,
+tfoot,
+tr,
+video,
+audio,
+aside,
+article,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  outline: none;
+}
+
+@font-face {
+  font-family: 'Navigo';
+  src: url("../fonts/navigo/Navigo-Thin.eot");
+  src: local("../fonts/navigo/Navigo Thin"), local("Navigo-Thin"), url("../fonts/navigo/Navigo-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/navigo/Navigo-Thin.woff2") format("woff2"), url("../fonts/navigo/Navigo-Thin.woff") format("woff"), url("../fonts/navigo/Navigo-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Navigo';
+  src: url("../fonts/navigo/Navigo-ExtraLight.eot");
+  src: local("../fonts/navigo/Navigo ExtraLight"), local("../fonts/navigo/Navigo-ExtraLight"), url("../fonts/navigo/Navigo-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/navigo/Navigo-ExtraLight.woff2") format("woff2"), url("../fonts/navigo/Navigo-ExtraLight.woff") format("woff"), url("../fonts/navigo/Navigo-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Navigo';
+  src: url("../fonts/navigo/Navigo-Light.eot");
+  src: local("../fonts/navigo/Navigo Light"), local("../fonts/navigo/Navigo-Light"), url("../fonts/navigo/Navigo-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/navigo/Navigo-Light.woff2") format("woff2"), url("../fonts/navigo/Navigo-Light.woff") format("woff"), url("../fonts/navigo/Navigo-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Navigo';
+  src: url("../fonts/navigo/Navigo-Regular.eot");
+  src: local("../fonts/navigo/Navigo Regular"), local("../fonts/navigo/Navigo-Regular"), url("../fonts/navigo/Navigo-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/navigo/Navigo-Regular.woff2") format("woff2"), url("../fonts/navigo/Navigo-Regular.woff") format("woff"), url("../fonts/navigo/Navigo-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Navigo';
+  src: url("../fonts/navigo/Navigo-Medium.eot");
+  src: local("../fonts/navigo/Navigo Medium"), local("../fonts/navigo/Navigo-Medium"), url("../fonts/navigo/Navigo-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/navigo/Navigo-Medium.woff2") format("woff2"), url("../fonts/navigo/Navigo-Medium.woff") format("woff"), url("../fonts/navigo/Navigo-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Navigo';
+  src: url("../fonts/navigo/Navigo-Bold.eot");
+  src: local("../fonts/navigo/Navigo Bold"), local("../fonts/navigo/Navigo-Bold"), url("../fonts/navigo/Navigo-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/navigo/Navigo-Bold.woff2") format("woff2"), url("../fonts/navigo/Navigo-Bold.woff") format("woff"), url("../fonts/navigo/Navigo-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Navigo';
+  src: url("../fonts/navigo/Navigo-Black.eot");
+  src: local("../fonts/navigo/Navigo Black"), local("../fonts/navigo/Navigo-Black"), url("../fonts/navigo/Navigo-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/navigo/Navigo-Black.woff2") format("woff2"), url("../fonts/navigo/Navigo-Black.woff") format("woff"), url("../fonts/navigo/Navigo-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ALS Hauss';
+  src: url("../fonts/ALS Hauss/ALS Hauss Light/ALS Hauss Light.eot");
+  src: local("../fonts/ALS Hauss/ALS Hauss Light/ALS Hauss Light"), local("../ALS Hauss/ALS Hauss Light/ALS Hauss Light"), url("../fonts/ALS Hauss/ALS Hauss Light/ALS Hauss Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ALS Hauss';
+  src: url("../fonts/ALS Hauss/ALS Hauss Medium/ALS Hauss Medium.eot");
+  src: local("../fonts/ALS Hauss/ALS Hauss Medium/ALS Hauss Medium"), local("../ALS Hauss/ALS Hauss Medium/ALS Hauss Medium"), url("../fonts/ALS Hauss/ALS Hauss Medium/ALS Hauss Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ALS Hauss';
+  src: url("../fonts/ALS Hauss/ALS Hauss Bold/ALS Hauss Bold.eot");
+  src: local("../fonts/ALS Hauss/ALS Hauss Bold/ALS Hauss Bold"), local("../ALS Hauss/ALS Hauss Bold/ALS Hauss Bold"), url("../fonts/ALS Hauss/ALS Hauss Bold/ALS Hauss Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ALS Hauss';
+  src: url("../fonts/ALS Hauss/ALS Hauss Black/ALS Hauss Black.eot");
+  src: local("../fonts/ALS Hauss/ALS Hauss Black/ALS Hauss Black"), local("../ALS Hauss/ALS Hauss Black/ALS Hauss Black"), url("../fonts/ALS Hauss/ALS Hauss Black/ALS HaussBlack.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/*   colors   */
+body {
+  font-family: 'Navigo';
+}
+
+.wrapper {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  min-width: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.btn {
+  font-family: 'ALS Hauss';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #2B2D33;
+  background: #FEE600;
+  padding: 15px 28px 15px 28px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.btn:hover {
+  background: #FED500;
+}
+
+main {
+  width: 100%;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: -0.2px;
+  }
+}
+
+header.header {
+  padding: 18px 18px 18px 16px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'ALS Hauss';
+}
+
+@media (max-width: 600px) {
+  header.header {
+    padding: 18px 18px 18px 16px;
+  }
+}
+
+header.header .header__block {
+  width: 100%;
+}
+
+header.header .header__block_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header.header .header__block_1 .header__link {
+  padding: 0px 35px 0px 35px;
+  background: url("../img/seporator.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+@media (max-width: 400px) {
+  header.header .header__block_1 .header__link {
+    padding: 0px 25px 0px 25px;
+  }
+}
+
+header.header .header__block_1 .header__link .header__logo {
+  width: 171.28px;
+  height: 36px;
+}
+
+@media (max-width: 500px) {
+  header.header .header__block_1 .header__link .header__logo {
+    width: 133px;
+    height: 28px;
+  }
+}
+
+header.header .header__block_1 .header__link .header__visa {
+  width: 86.68px;
+  height: 28px;
+}
+
+@media (max-width: 500px) {
+  header.header .header__block_1 .header__link .header__visa {
+    width: 74.3px;
+    height: 24px;
+  }
+}
+
+header.header .header__block_1 .header__link:first-child {
+  padding-left: 0px;
+}
+
+header.header .header__block_1 .header__link:last-child {
+  padding-right: 0px;
+  background: none;
+}
+
+header.header .header__block_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header.header .header__block_2 .header__phone {
+  color: #2B2D33;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+@media (max-width: 600px) {
+  header.header .header__block_2 .header__phone {
+    width: 24px;
+    height: 24px;
+    background: url("../img/phone.svg");
+    background-size: cover;
+    background-position: center;
+  }
+  header.header .header__block_2 .header__phone span {
+    display: none;
+  }
+}
+
+header.header .header__block_2 .header__free {
+  color: #808185;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+@media (max-width: 600px) {
+  header.header .header__block_2 .header__free {
+    display: none;
+  }
+}
+
+.offer {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/offer-bg.png");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.offer .offer__block {
+  width: 100%;
+}
+
+.offer .offer__block .offer__benefit {
+  width: 240px;
+  padding: 5px 18px 5px 12px;
+  font-family: 'ALS Hauss';
+  color: #ffffff;
+  background: url("../img/benefit.svg");
+  background-size: cover;
+  background-position: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.offer .offer__block .offer__benefit .benefit__price {
+  display: none;
+}
+
+.offer .offer__block .offer__title {
+  margin: 13px 0px 0px 0px;
+  color: #ffffff;
+  max-width: 520px;
+}
+
+@media (max-width: 600px) {
+  .offer .offer__block .offer__title {
+    max-width: 307px;
+  }
+}
+
+.offer .offer__block .offer__title .offer__persent {
+  margin: 16px 0px 0px 0px;
+  font-weight: 900;
+  font-size: 108px;
+  line-height: 108px;
+}
+
+@media (max-width: 600px) {
+  .offer .offer__block .offer__title .offer__persent {
+    font-size: 64px;
+    line-height: 72px;
+  }
+}
+/*# sourceMappingURL=page.css.map */
