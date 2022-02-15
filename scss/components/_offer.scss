@@ -3,8 +3,27 @@
   height: 100vh;
   background: url('../img/offer-bg.png');
   background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
+
+  @media (max-width:1200px) {
+    background-position: left -100px top 0;
+  }
+
+  @media (max-width:1000px) {
+    background-position: left -200px top 0;
+  }
+
+  @media (max-width:600px) {
+    background: url('../img/offer-bg_mob.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: flex-start;
+    padding: 30px 20px 0px 20px;
+  }
+
 
   .offer__block {
     width: 100%;
@@ -32,7 +51,8 @@
       margin: 13px 0px 0px 0px;
       color: $White;
       max-width: 520px;
-      @media (max-width:600px){
+
+      @media (max-width:600px) {
         max-width: 307px;
       }
 
@@ -49,6 +69,16 @@
       }
     }
 
-    .offer_btn {}
+    .offer_btn {
+      z-index: 2;
+
+      @media (max-width:600px) {
+        border-radius: 0px;
+        position: fixed;
+        width: 100vw;
+        bottom: 0;
+        left: 0;
+      }
+    }
   }
 }

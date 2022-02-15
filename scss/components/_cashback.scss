@@ -1,0 +1,84 @@
+.cashback {
+  padding: 80px 0px 90px 0px;
+
+  .cashback__title {
+    text-align: center;
+    margin: 0px 0px 64px 0px;
+
+  }
+
+  .cashback__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    @media (max-width:1200px) {
+      flex-wrap: wrap;
+    }
+
+    @media (max-width:800px) {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .cashback__item {
+      position: relative;
+      padding: 60px 30px 60px 30px;
+      background: $BlueDark;
+      display: block;
+      width: 365px;
+      border-radius: 14px;
+
+      @media (max-width:1200px) {
+        margin: 20px 0px 0px 0px;
+      }
+
+      @media (max-width:420px) {
+        width: 100%;
+      }
+
+      .cashback__item-text {
+        color: $White;
+        @include fontSecond;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 30px;
+        max-width: 120px;
+
+        @media (max-width:420px) {
+          font-size: 22px;
+          line-height: 28px;
+        }
+      }
+
+      img {
+        position: absolute;
+        right: 30px;
+        top: 25px;
+      }
+
+      &_1 {
+        img {}
+      }
+
+      &_2 {
+        img {
+          right: 30px;
+          top: 0px;
+        }
+      }
+
+      &_3 {
+        .cashback__item-text {
+          max-width: 170px;
+        }
+
+        img {
+          top: 6px;
+          right: 0px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.proposal {
+  padding: 50px 0px 90px 0px;
+  border-bottom: 1px $GrayLightBorder solid;
+
+  .proposal__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width:1000px){
+      flex-wrap: wrap;
+    }
+    @media (max-width:500px){
+      flex-direction: column;
+    }
+
+    .proposal__item {
+      @media (max-width:1000px){
+        margin: 20px 0px 0px 0px;
+      }
+      .proposal__title {
+        .smaller {
+          line-height: normal;
+          font-size: 36px;
+        }
+      }
+
+      .proposal__description {
+        @include fontSecond;
+        font-size: 16px;
+        line-height: 10px;
+        text-align: center;
+        color: $GrayDark2;
+      }
+    }
+  }
+}
